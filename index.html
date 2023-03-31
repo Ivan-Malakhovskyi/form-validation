@@ -441,6 +441,94 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+
+        <form class="form">
+          <p class="form-modal-text">
+            Leave your contacts and we will call you back
+          </p>
+          <div class="form-field">
+            <label for="user-text" class="form-label top-label">Name</label>
+            <div class="thumb-form">
+              <input
+                type="text"
+                name="user-text"
+                id="user-text"
+                class="form-input"
+                required
+              />
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-form1"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label class="phone-text top-label" for="user-tel">Phone</label>
+            <div class="thumb-form">
+              <input
+                type="tel"
+                name="user-tel"
+                id="user-tel"
+                class="form-input"
+                required
+              />
+              <svg class="form-icons">
+                <use href="./images/icons.svg#icon-form2"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label class="top-label" for="user-email ">Email</label>
+            <div class="thumb-form">
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                class="form-input"
+                required
+              />
+              <svg class="form-icons">
+                <use href="./images/icons.svg#icon-form3"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-comment">
+            <label class="comment-user top-label" for="user-comment"
+              >Comment</label
+            >
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              rows="10"
+              placeholder="Text input"
+              class="user-comments-area"
+            ></textarea>
+          </div>
+
+          <div class="form-agree">
+            <input
+              type="checkbox"
+              name="user-accept"
+              value="true"
+              id="users-accept"
+              class="checkbox-input"
+            />
+            <label class="check-text" for="users-accept">
+              <span class="check-icon"
+                ><svg class="icon-checkbox" width="12p">
+                  <use href="./images/icons.svg#icon-Vector"></use></svg
+              ></span>
+              <span class="text-form"
+                >I accept the terms and conditions of the</span
+              >
+              <a href="" class="privacy-link">Privacy Policy</a></label
+            >
+          </div>
+
+          <button class="button-form" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
