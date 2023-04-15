@@ -25,6 +25,7 @@
 
   --card-shadow-team: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
   --grad-hero: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 
   --footer-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -51,6 +52,7 @@
 
   --placeholder-color: rgba(255, 255, 255, 1);
 }
+
 body {
   color: var(--main-text-color);
   font-family: "Roboto", sans-serif;
@@ -114,7 +116,7 @@ img {
   box-shadow: var(--footer-shadow);
 }
 
-/* Шрифти */
+/* *Шрифти */
 
 /* *--------Logo  Web та Studio-------- */
 
@@ -1114,24 +1116,3 @@ img {
   width: 10px;
   height: 8px;
 }
-
-/* *Спосіб 1 для розташування checkbox за допомогою ::before і bacground-image */
-
-/* .check-text::before {
-  display: block;
-  content: "";
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-}
-
-
-
-.checkbox-input:checked + .check-text::before {
-  background-color: #404bbf;
-  border: none;
-  background-image: url(../images/checked.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-} */
